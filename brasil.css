@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(92, 252, 0);
+}
+
+nav.menu ul {
+    display: flex;
+    list-style: none;     
+    padding: 0px;        
+}
+
+.menu-item{
+    padding: 100px;
+    color: rgb(0, 19, 19);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.menu-image{
+    background-color: rgb(255, 254, 254);
+}
+
+nav.menu-item{
+    padding: 0px;
+}
+
+li.menu{
+    padding: 100px;
+}
+
+.menu-item:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.hero {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     color: rgba(198, 253, 0, 0.836);
+     background-image: url(imagens/background.jpg);
+     background-position: center;
+     background-size: cover;
+}
+
+.hero > h1{
+    font-size: 50px;
+    margin-top: 75px;
+    margin-left: 50px;
+}
+
+.hero > p{
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 50px;
+    padding-bottom: 75px;
+}
+
+section.content{
+    display: flex;
+    background-color: rgb(31, 83, 0);
+    color: #ffffff;
+    align-items: center;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 100px;
+    padding-bottom: 50px;
+}
+
+.content-image {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.content-image {
+    width: 100%;
+    object-fit: cover;
+}
+
+section.card{
+    background-color: rgb(31, 83, 0);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+.card-image {
+    width: 300px;
+    height: 300px; 
+    overflow: hidden; 
+}
+
+.card-image {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+  padding: 10px;
+  object-fit: cover;
+}
+
+div.card {
+    border-color: black;
+    border: 10px;
+    border-style: inset;
+}
+
+div.card {
+    background-color: azure;
+    margin: 10px;
+    margin-left: 100    px;
+}
+
+.card-item{ 
+    text-align: center;
+}
+
+.curiosidades {
+    background-color: #2c3e50;
+    color: white;
+    padding: 50px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.curiosidades-itens{
+    font-size: 22px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+div.curiosidades{
+    background-color: rgb(31, 83, 0);
+    width: 50%;
+}
+
+.rodape {
+    background-color: #8cb302;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

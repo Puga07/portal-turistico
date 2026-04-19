@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(201, 180, 148);
+}
+
+nav.menu ul {
+    display: flex;
+    list-style: none;     
+    padding: 0px;        
+}
+
+.menu-item{
+    padding: 100px;
+    color: rgb(0, 19, 19);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.menu-image{
+    background-color: rgb(255, 254, 254);
+}
+
+nav.menu-item{
+    padding: 0px;
+}
+
+li.menu{
+    padding: 100px;
+}
+
+.menu-item:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+section.contato{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right top, #741220, #6f1d3b, #612b4f, #503759, #42405a);
+     padding: 50px;
+}
+
+
+.contato-image{
+    width: 25px;
+}
+
+h1.contato-item{
+    padding-bottom: 70px;
+    padding-top: 1px;
+    font-size: 60px;
+    padding-right: 10px;
+}
+
+p.contato-item{
+    font-size: 22px;
+    padding: 25px;
+}
+
+.rodape {
+    background-color: rgb(201, 180, 148);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     color: rgb(2, 0, 1);     
+     background-image: url(imagens/airplane.jpg);
+     background-position: center;
+     background-size: cover;
+}
+
+.hero > h1{
+    font-size: 50px;
+    margin-top: 75px;
+    margin-left: 50px;
+    padding-bottom: 40px;
+}
